@@ -1,4 +1,6 @@
-﻿#include <iostream>
+﻿/*
+нахождение наибольшего общего делителя */
+#include <iostream>
 
 using namespace std;
 
