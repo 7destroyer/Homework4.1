@@ -5,15 +5,15 @@
 using namespace std;
 
 int Recursive(int a, int b);
-int Iterative(int a, int b);
+int Iterative(int c, int d);
 
 int main()
 {
     setlocale(LC_ALL, "RU");
     int num1, num2;
-    cout << "Введите первое число: " << endl;
+    cout << "Введите первое число: ";
     cin >> num1;
-    cout << "Введите второе число: " << endl;
+    cout << "Введите второе число: ";
     cin >> num2;
     int res1 = Recursive(num1, num2);
     int res2 = Iterative(num1, num2);
